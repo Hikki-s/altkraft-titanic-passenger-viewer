@@ -51,7 +51,7 @@ export function initApp() {
             displayNextBatch();
         }
     }, {
-        threshold: 0.5, // Срабатывание при 50% видимости
+        threshold: 0.5,
     });
 
     observer.observe(sentinel);
